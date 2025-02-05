@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/print"
+        android:icon="@drawable/outline_print_24"
+        android:title="print"
+        android:contentDescription="print"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/outline_settings_24"
+        android:title="settings"
+        android:contentDescription="settings"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "562248033144",
+    "firebase_url": "https://chasetags-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chasetags",
+    "storage_bucket": "chasetags.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562248033144:android:f174005421dd02b8725e8d",
+        "android_client_info": {
+          "package_name": "com.example.chasetags"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562248033144-ccr2c2hj2pvb5n6rh0umm714a3ru7um3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chasetags",
+            "certificate_hash": "7ff1c157f871c9ce2e5882d7582993c1b775b4f9"
+          }
+        },
+        {
+          "client_id": "562248033144-2phh7j0bovftgsgcqnafsdneqaufn05f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtXOVKU_d9x4un-U1xuAoGN2kEQfojGYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562248033144-2phh7j0bovftgsgcqnafsdneqaufn05f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

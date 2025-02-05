@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_code_rune"
+        android:title="@string/add_code_rune" />
+    <item android:id="@+id/menu_qr_rune"
+        android:title="@string/add_qr_rune" />
+</menu>

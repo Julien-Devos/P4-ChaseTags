@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainActivity -->
+
+    <string name="app_name">ChaseTags</string>
+    <string name="create_room">Create a room</string>
+    <string name="nickname">Nickname</string>
+    <string name="room_code">Party code</string>
+    <string name="display_room_code">Party code: %1$s</string>
+    <string name="join_party">Join the game</string>
+    <string name="party_loading">Game is loading</string>
+    <string name="invalid_nickname">Invalid nickname. May only contain the characters A-Z, a-z, 0-9</string>
+    <string name="room_doesnt_exist">This game doesn\'t exists</string>
+    <string name="players_in_room">Players in the room:</string>
+    <string name="enter_room_code">You need to enter room code</string>
+    <string name="nickname_taken">This nickname is already taken</string>
+
+    <string name="create_game">Create a game</string>
+    <string name="join_chase">Join a game</string>
+
+    <!-- SessionMenuActivity -->
+    <string name="title_activity_test">Test</string>
+    <string name="add_code_rune">Add a new code Rune</string>
+    <string name="add_qr_rune">Create a QR Rune</string>
+    <string name="add_rune">Create a new Rune</string>
+    <string name="open_menu_choose_rune">Open the menu to choose a rune type</string>
+    <string name="create_room_from_session_menu">Launch game</string>
+
+    <!-- Creating a generic Rune -->
+    <string name="creating_rune_name">Name of the Rune</string>
+    <string name="creating_rune_confirm">Create the Rune</string>
+    <string name="creating_rune_loc">Hint to find the Rune</string>
+    <string name="creating_rune_score">Score of the Rune</string>
+
+    <string name="creating_rune_name_hint">ex. : "My Rune"</string>
+    <string name="creating_rune_loc_hint">ex. : "Near the couch"</string>
+    <string name="creating_rune_score_hint">ex. : Between 5 and 20 depending on location</string>
+
+    <!-- AddCodeRuneActivity -->
+    <string name="creating_code_rune_toolbar">Create a code Rune</string>
+    <string name="creating_code_rune_code">Code of the Rune</string>
+
+    <string name="creating_code_rune_code_hint">ex. : 01234, ABCDE</string>
+    <string name="start_game_button">Start the game</string>
+    <string name="creating_room">Creating the room</string>
+    <string name="manage_runes">Manage my Runes</string>
+    <string name="my_runes">My Runes</string>
+    <string name="no_profile_runes">You don\'t have any saved Runes on your profile</string>
+    <string name="modifyCodeRune">Modify code Rune</string>
+    <string name="saveRune">Save the Rune</string>
+
+    <!-- Timer -->
+    <string name="timer_out">No more time !</string>
+    <string name="save_my_selection_button">Save my selection</string>
+    <string name="name_of_the_rune">Name of the Rune</string>
+    <string name="code_of_the_rune">Code</string>
+    <string name="create_code_rune">Create code Rune</string>
+    <string name="select_profile_runes">Select Runes</string>
+    <string name="creating_qr_rune_toolbar">Create a QR Rune</string>
+    <string name="remaining_time">Remaining time: %02dh:%02dm:%02ds</string>
+
+    <!-- GameMenuActivity -->
+    <string name="rune_counter">You found %d/%d runes</string>
+    <string name="enter_rune_code">Enter new rune</string>
+    <string name="end_game">End game</string>
+    <!-- GameMenuActivity - dialog when back pressed -->
+    <string name="leave_game_dialog_title">Please confirm</string>
+    <string name="leave_game_dialog_message">Are you sure you want to leave the game ? You will not be able to join anymore</string>
+    <string name="leave_game_dialog_positive">Leave</string>
+    <string name="leave_game_dialog_negative">Cancel</string>
+
+    <!-- AskRuneCodeActivity -->
+    <string name="runeTextDefault">00000</string>
+    <string name="validate_rune_input">Validate new rune</string>
+    <string name="toast_rune_entered_successfully">Rune entered successfully !</string>
+    <string name="toast_rune_enter_fail">That Rune doesn\'t exists!</string>
+    <string name="toast_rune_already_entered">Rune has already been entered !</string>
+
+    <!-- PrintQRRunes -->
+    <string name="print_qr_runes">Print QR Runes</string>
+    <string name="no_qr_runes">You don\'t have any QR Rune</string>
+    <string name="no_qr_runes_in_game">There\'s no QR Rune in the game</string>
+    <string name="print_my_selection_button">Print selected runes</string>
+    <string name="hint_of_the_rune">Hint</string>
+    <string name="pdf_saved_successfully">PDF file saved to </string>
+
+    <!-- EndGameScoreboard -->
+    <string name="game_end_summary">Game summary</string>
+    <string name="go_back_to_title_screen">Go back to title screen</string>
+
+    <!-- Vrac -->
+    <string name="enter_rune">Enter new rune</string>
+    <string name="no_runes_added">You must add Runes to start a game</string>
+    <string name="game_has_stopped">The game has been stopped</string>
+    <string name="leave_game">Leave game</string>
+    <string name="leave_game_dialog_message_host">Are you sure you want to leave the game ? You will destroy the room.</string>
+    <string name="game_already_started">This game has already started</string>
+    <string name="game_room">Game room</string>
+    <string name="party_code">Room code: %s</string>
+    <string name="its_global_rune">You can\'t modify a global Rune here!</string>
+    <string name="global_rune">Global Rune</string>
+    <string name="enter_qr_rune">Scan new qr rune</string>
+    <string name="error_qr_rune_code">Error while trying to get QR Code value</string>
+    <string name="toast_qr_rune_already_entered">This Rune has already been entered !</string>
+    <string name="toast_qr_rune_entered_successfully">QR Rune has successfully be found !</string>
+    <string name="toast_qr_rune_doesnt_exists">This QR code is not part of the game</string>
+
+    <string name="game_timer">Game length: %02dh:%02dm</string>
+    <string name="minutes">%s minutes</string>
+    <string name="hour">%s hour</string>
+    <string name="infinite_timer">Game length: no limit</string>
+    <string name="scan_the_rune">Scan the Rune tag with your phone</string>
+    <string name="save_rune_on_tag">Save the Rune on the tag</string>
+    <string name="scan_rune_instructions">Put the tag you want to link to the Rune against the phone.</string>
+    <string name="add_nfc_rune">Create a NFC Rune</string>
+    <string name="rune_write_sucess">The Rune has been successfully added to the tag !</string>
+    <string name="scanned_tag_content">The tag you scanned contains Rune named \"%s\"</string>
+    <string name="image_wave">Image wave</string>
+    <string name="app_logo">app logo</string>
+    <string name="enable_game_timer">Enable game timer</string>
+    <string name="select_time">Select game length</string>
+    <string name="no_time_selected">You need to select a timer</string>
+    <string name="game_ending_options">Choose what ends the game</string>
+    <string name="timer_ends">When the time is up</string>
+    <string name="all_players_done">When every player found all the Runes</string>
+    <string name="one_player_done">When a player found all the Runes</string>
+    <string name="three_players_done">When 3 players found all the Runes</string>
+    <string name="desc_timer">Timer</string>
+    <string name="go_to_profile_runes">Add profile Runes</string>
+    <string name="no_game_runes">Press \'+\' button to add Runes to your game</string>
+    <string name="select_profile_runes_top_bar">Select Runes</string>
+    <string name="rune_no_name">You need to enter a name</string>
+    <string name="rune_no_code">You need to enter a code</string>
+    <string name="rune_no_hint">You need to enter a hint</string>
+    <string name="no_player_in_game">There\'s no player in the room !\n Share the room code to the players to make them join</string>
+    <string name="score_text">Score : %d</string>
+    <string name="clue_options_text">Choose how will the hint of the Runes will be given to the player.</string>
+    <string name="rune_chase">Rune chase</string>
+    <string name="tracking_game">Tracking game</string>
+    <string name="rune_chase_explaination">The players can seek for any Rune of the game. More appropriated for small places like a room or a house.</string>
+    <string name="tracking_game_explaination">The player get hint of a random Rune in the game and once he found it gets another one and so on. More appropriated for big places like a village or a building.</string>
+    <string name="timer_picker">Select game length</string>
+    <string name="timer_picker_time">%02dh:%02dm</string>
+    <string name="save_timer_button">Save</string>
+    <string name="remaining_time_hours">Remaining time: %02dm:%02ds</string>
+    <string name="edit_timer">Edit timer</string>
+    <string name="delete_rune_dialog">Delete the Rune</string>
+    <string name="delete_rune_message_dialog">This action will delete the Rune from your profile permanently.</string>
+    <string name="do_not_remember">Do not remember me</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="delete_button">Delete</string>
+    <string name="remove_rune_dialog">Remove the Rune</string>
+    <string name="remove_rune_message_dialog">This action will remove the Rune from the game.</string>
+    <string name="remove_button">Remove</string>
+    <string name="rune_code">Code: %s</string>
+    <string name="rune_hint">Hint: %s</string>
+    <string name="points" translatable="false">%s points</string>
+    <string name="edit_rune">Edit the Rune</string>
+    <string name="edit_rune_dialog_message">This will edit the Rune in the game and in your profile too.</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="no_tag_linked">No tag linked to the Rune</string>
+    <string name="tag_linked">Tag linked to the Rune</string>
+    <string name="new_tag_linked">New tag linked to the Rune</string>
+    <string name="tag_alredy_linked">That tag is already linked to the rune named: %s</string>
+    <string name="next_rune_hint">Next rune hint: </string>
+    <string name="no_hint_remaining">Congratulation ! You found all the runes !</string>
+    <string name="use_app_as_host">Proceed as host</string>
+    <string name="back_button">Back</string>
+    <string name="next_button">Next</string>
+    <string name="page_number" translatable="false">%d/5</string>
+    <string name="end_tutorial" translatable="false">ChaseTags</string>
+    <string name="tutorial_title_1">Play with your friends !</string>
+    <string name="tutorial_desc_1">With ChaseTags, create games with your friends. Create Runes in the form of code, QR code or NFC tag. Hide them in a room, house, city and invite your friends to your game.</string>
+    <string name="tutorial_title_2">Log in</string>
+    <string name="tutorial_title_3">Customize the game</string>
+    <string name="tutorial_title_4">Invite your friends</string>
+    <string name="tutorial_title_5">Enter the Runes of the game</string>
+    <string name="tutorial_desc_2">To create a game and manage your Runes, create an account. Once logged in, you can create new Runes that can be used in game. You can also edit them and delete them from your profile.</string>
+    <string name="tutorial_desc_3">When you create a game, you can set it up as you wish. You can first add the Runes you want, import them from your profile, modify them and delete them from the game if you change your mind. You can also set the duration of the game, choose how the game ends or even choose between 2 game modes.</string>
+    <string name="tutorial_desc_4">When a game is created, your friends can join it using the game code given to you. You don\'t need an account to join a game, you just need a nickname and the game code. Once all players are in the game you can start the game. Be careful once the game has started, you can\'t join it anymore!</string>
+    <string name="tutorial_desc_5">As the organizer, you can see the timer and the points of each player. As a player you have to look for the hidden Runes and once found, scan them or enter them depending on the type of Rune.\nHave fun on ChaseTags!</string>
+    <string name="game_settings">Game settings</string>
+    <string name="best_score">In the lead :\n%s (%dpts)</string>
+    <string name="your_score">Your score : %d</string>
+    <string name="end_game_host_decision">The game has ended :\nHost decision</string>
+    <string name="end_game_threshold_passed">The game has ended :\nEnough players have finished</string>
+    <string name="end_game_timer">The game has ended :\nThe timer ran out</string>
+    <string name="end_game_all_players_done">The game has ended:\nEveryone has found the Runes</string>
+    <string name="end_game_unknown_reason">The game has ended:\nUnknown reason</string>
+    <string name="end_game_toast_no_players">No player remaining. Terminating the game</string>
+    <string name="host_dashboard">Host dashboard</string>
+    <string name="login">Sign in</string>
+    <string name="must_login">You must sign in before accessing host features and creating games</string>
+    <string name="logout">Sign out</string>
+    <string name="welcome_login">Welcome,\n%s 😀</string>
+    <string name="host_leaves_game">Game disbanded : the host left</string>
+</resources>

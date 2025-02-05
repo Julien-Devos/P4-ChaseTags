@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_1"
+        android:enabled="true"
+        android:icon="@drawable/baseline_password_24"
+        android:title="CODE"/>
+
+    <item
+        android:id="@+id/item_2"
+        android:enabled="true"
+        android:icon="@drawable/outline_nfc_24"
+        android:title="NFC"/>
+
+    <item
+        android:id="@+id/item_3"
+        android:enabled="true"
+        android:icon="@drawable/outline_qr_code_2_24"
+        android:title="QR"/>
+
+</menu>
